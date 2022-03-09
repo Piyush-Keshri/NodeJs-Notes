@@ -19,4 +19,36 @@
 * Real-time Chat Application.
 * Server-Side Web Application. 
 
+
+// WHAT HAPPENS WHEN WE ACCESS A WEBPAGE
+
+Our browser which is also called a client  sends a request to the server where the webpage is hosted and the server will then
+send back a response which will contain the webpage that we requested.
+This process is called the request-response model or Client-Server Architecture.
+
+https://www.google.com/maps  -->  https://216.58.211.206:443
+
+https is the protocol.                216.58.211.206 is the IP address
+google.com is the domain name         443 is the port number.
+maps is resource.
+
+DNS --> Domain Name Servers  are like the phonebook of the internet.
+TCP --> Transmission Control Protocols
+IP --> Internet Protocols
+HTTP --> HyperText Transfer Protocol.
+
+* TCP/IP together are communication protocols that define exactly how data trvels across the web.
+* HTTP is also a communication protocol that allows clients and web servers to communicate by sending request and response messages
+ from client to server and back
+
+1.The first step that happens when we open up a website is that the browser makes a request to the DNS and then DNS will then simply
+match the web address that we typed in the browser to the server's real IP address and this happens through our ISP.
+
+2. After we have the correct address a TCP/IP socket connection is established between the client and the server and the connection
+is alive between the browser and the server till all the files of the website are transferred.
+
+3. HTTP request to the server.
+
+4. HTTP response from the server.
+
 */
