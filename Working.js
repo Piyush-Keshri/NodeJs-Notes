@@ -1,6 +1,11 @@
 /*
+
+As Node.js is single threaded so the execution happens in the following way
+
+Initialise Program --> Execute "top-level" code --> Require Modules --> Register Event Callbacks --> Start Event Loop
+
 * Event Loop
-# All the aoolication code that is inside callback functions(non-top-top-level code)
+# All the application code that is inside callback functions(non-top-top-level code)
 # Node.js is built around callback functions 
 # Event-driven Architecture
     -- Events are Emitted.
