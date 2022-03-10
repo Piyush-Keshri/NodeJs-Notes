@@ -43,4 +43,12 @@ Measures that should be taken to not block the Event Loop
 3.Be careful with JSON in large objects.
 4.Do not use too complex regular expressions(eg:nested quantifiers) 
 
+//-------------------------EVENT DRIVEN ARCHITECTURE-------------------------//
+
+In Node there are certain objects called event emitters that emits named events as soon as something important happens in the app,
+like a request hitting server or a timer expiring or a file finishing to read.
+These events can then be picked up by event listeners that we developers setup which will fire off callback functions that are attached
+to each listener.
+
+
 */
