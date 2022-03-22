@@ -5,7 +5,7 @@ APIs are piece of software that can be used by another piece of software in orde
 
 //----------------------- THE REST ARCHITECTURE ------------------//
 
-REST -- Representational States Transfer.
+REST -- Representational States Transfer. /;
 
 It is basically a way of building web APIs in a logical way,making them easy to consume.
 

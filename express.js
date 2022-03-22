@@ -9,4 +9,12 @@
 -- Express Allows for rapid Development of Node.js Applications.
 -- Express makes it easier to organise our application into the MVC architecture.
 
+* The Request-Response Cycle
+ -- The essence of express development is to use request-response cycle.
+
+ -- To start a request-response cycle our Express App recieves a request when someone hits a server for which it will then create
+    a request and response object.That data will then be used in order to generate and send back a meaningful response.
+
+    
+
 */
