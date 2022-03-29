@@ -18,9 +18,10 @@ MongoDb is a document database with the scalability and flexibility that you wan
 # Commands
 
 -- use Name - switches to the Name database or creates it if it doesnot exist.
--- insertOne - Inserts a field in the database.
+-- insertOne() - Inserts a field in the database.
 -- show dbs - shows all databases.
-
+-- quit() - Exits the command line
+-- insertMany() --Inserts Many fields in a database.
                             
 
 */
