@@ -25,4 +25,13 @@ MongoDb is a document database with the scalability and flexibility that you wan
                             
 MongoDb Driver -- It is basically a software that allows node code to access and interact with a MongoDB database.
                   The most popular MongoDb driver is Mongoose.
+
+Mongoose -- Mongoose is an Object Data Modelling (ODM) library for MongoDB and Node.js. It provides a higher level of Abstraction.
+            Mongoose allows for rapid and simple development of MongoDB database Interactions.
+            Some of its features Includes , schemas to model data and relationships,eady data validation,simple query API ,middleWare etc.
+
+Mongoose Schema -- Where we model our Data by describing the structure of the data,default values and validation.
+
+Mongoose Model --  A wrapper for the schema providing an interface to the database for CRUD opreations.
+  
 */
