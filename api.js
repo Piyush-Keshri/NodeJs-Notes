@@ -13,7 +13,7 @@ To Build APIs following the REST Architecture following Principles are Followed 
 
 1. Separate API into Logical resources.
 2. Expose structured,resource-based URLs
-3. Use HTTP methods -- Post,Get,Put,Patc,Delete.
+3. Use HTTP methods -- Post,Get,Put,Patch,Delete.
 4. Send Data as JSON
 5. Be stateless.
 
